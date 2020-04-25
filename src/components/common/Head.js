@@ -27,6 +27,7 @@ export const Head = ({ description, lang, meta, title }) => {
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
+      link={[{ rel: 'shortcut icon', href: '/logo.ico' }]}
       meta={[
         {
           name: `description`,
