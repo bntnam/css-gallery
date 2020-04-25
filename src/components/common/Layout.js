@@ -4,11 +4,13 @@ import { ThemeProvider } from "styled-components";
 
 import { theme } from "../../utils";
 import { GlobalStyle } from "./GlobalStyle";
+import { Footer } from "../../components";
 
 export const Layout = ({ children }) => (
   <ThemeProvider theme={theme}>
     <GlobalStyle />
     {children}
+    <Footer />
   </ThemeProvider>
 );
 

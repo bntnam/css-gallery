@@ -9,6 +9,10 @@ export const colors = {
   lightningYellow: "#f9a72b",
   lightningOrange: "#fa9026",
   pumpkin: "#fb6c1f",
+  oldRose: "#c83b50",
+  salomie: "#ffdd7f",
+  safetyOrange: "#ff6100",
+  blackcurrant: "#1c1428",
 };
 
 export const theme = {

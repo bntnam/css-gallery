@@ -15,7 +15,7 @@ import {
 import { typography, textTransform, pxToRem } from "./style";
 
 export const fontSizes = {
-  l: pxToRem("48px"),
+  l: pxToRem("72px"),
   m: pxToRem("36px"),
   s: pxToRem("17px"),
 };
@@ -72,6 +72,7 @@ export const typographyStyles = {
   heading: {
     ...headingStyles,
     fontSize: "l",
+    color: "oldRose",
     as: "h1",
   },
   subheading: {
@@ -79,7 +80,7 @@ export const typographyStyles = {
     fontSize: "m",
     as: "h2",
   },
-  bodyText: {
+  text: {
     ...textStyles,
     fontSize: "s",
   },
@@ -91,5 +92,5 @@ Heading.defaultProps = typographyStyles.heading;
 export const Subheading = styled(BaseText)({});
 Subheading.defaultProps = typographyStyles.subheading;
 
-export const BodyText = styled(BaseText)({});
-BodyText.defaultProps = typographyStyles.bodyText;
+export const Text = styled(BaseText)({});
+Text.defaultProps = typographyStyles.text;
