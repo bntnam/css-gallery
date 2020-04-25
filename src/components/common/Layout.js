@@ -1,29 +1,17 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import React from "react";
+import PropTypes from "prop-types";
+import { ThemeProvider } from "styled-components";
 
-import Head from "./common/Head";
+import { theme } from "../../utils";
+import { GlobalStyle } from "./GlobalStyle";
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
-  return (
-    <>
-      {children}
-    </>
-  )
-}
+export const Layout = ({ children }) => (
+  <ThemeProvider theme={theme}>
+    <GlobalStyle />
+    {children}
+  </ThemeProvider>
+);
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
-
-export default Layout
+};
