@@ -31,7 +31,15 @@
     "typeface-luckiest-guy": "^0.0.72"
   },
   "devDependencies": {
-    "prettier": "2.0.4"
+    "gh-pages": "^2.2.0",
+    "husky": "^4.2.5",
+    "prettier": "2.0.4",
+    "pretty-quick": "^2.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   },
   "keywords": [
     "gatsby"
@@ -43,7 +51,8 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy:github": "npm run build && node ./scripts/deploy-github"
   },
   "repository": {
     "type": "git",
