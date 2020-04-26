@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+import { Subheading } from "../../utils";
+
 const Loading = styled.div`
   position: fixed;
   width: 100%;
@@ -8,7 +10,7 @@ const Loading = styled.div`
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
   z-index: 9999;
   display: block;
 
@@ -25,7 +27,7 @@ const Loading = styled.div`
     content: "";
     display: block;
     position: absolute;
-    left: 48%;
+    left: 49%;
     top: 40%;
     width: 40px;
     height: 40px;
@@ -39,4 +41,14 @@ const Loading = styled.div`
   }
 `;
 
-export const Spinner = () => <Loading />;
+const StyledSubheading = styled(Subheading)`
+  position: absolute;
+  left: 45%;
+  top: 50%;
+`;
+
+export const Spinner = () => (
+  <Loading>
+    <StyledSubheading>Preparing...</StyledSubheading>
+  </Loading>
+);

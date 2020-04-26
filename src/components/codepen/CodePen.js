@@ -38,46 +38,46 @@ export const CodePen = () => {
     <Container>
       {isLoading && <Spinner />}
       <Codepen
-        hash="ZEbKzPj"
+        hash="jObmGyV"
         user="bntnam"
-        title="3Circles"
+        title="Koala"
         defaultTab="result"
-        preview="true"
+        preview="false"
       />
       <Codepen
-        hash="ZEbKzPj"
+        hash="jObmGyV"
         user="bntnam"
-        title="3Circles"
+        title="Koala"
         defaultTab="result"
-        preview="true"
+        preview="false"
       />
       <Codepen
-        hash="ZEbKzPj"
+        hash="jObmGyV"
         user="bntnam"
-        title="3Circles"
+        title="Koala"
         defaultTab="result"
-        preview="true"
+        preview="false"
       />
       <Codepen
-        hash="ZEbKzPj"
+        hash="jObmGyV"
         user="bntnam"
-        title="3Circles"
+        title="Koala"
         defaultTab="result"
-        preview="true"
+        preview="false"
       />
       <Codepen
-        hash="ZEbKzPj"
+        hash="jObmGyV"
         user="bntnam"
-        title="3Circles"
+        title="Koala"
         defaultTab="result"
-        preview="true"
+        preview="false"
       />
       <Codepen
-        hash="ZEbKzPj"
+        hash="jObmGyV"
         user="bntnam"
-        title="3Circles"
+        title="Koala"
         defaultTab="result"
-        preview="true"
+        preview="false"
       />
     </Container>
   );
