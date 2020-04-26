@@ -3,7 +3,7 @@ import { GitHub, Globe, Linkedin } from "react-feather";
 import styled from "styled-components";
 
 import "./index.less";
-import { Heading } from "../../utils";
+import { Heading, media } from "../../utils";
 
 const Container = styled.div`
   background-color: ${(props) => props.theme.colors.darkOrange};
@@ -39,6 +39,10 @@ const ButtonGroup = styled.div`
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  ${media.lessThan("mobile")`
+    top: 38%;
+  `}
 `;
 
 const Button = styled.a`
