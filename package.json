@@ -28,8 +28,7 @@
     "semantic-ui-react": "^0.88.2",
     "styled-components": "^5.1.0",
     "styled-media-query": "^2.1.2",
-    "styled-system": "^5.1.5",
-    "typeface-luckiest-guy": "^0.0.72"
+    "styled-system": "^5.1.5"
   },
   "devDependencies": {
     "gh-pages": "^2.2.0",

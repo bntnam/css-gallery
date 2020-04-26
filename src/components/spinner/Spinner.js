@@ -29,6 +29,7 @@ const Loading = styled.div`
     position: absolute;
     left: 49%;
     top: 40%;
+    margin: 0 auto;
     width: 40px;
     height: 40px;
     border-style: solid;
@@ -38,6 +39,10 @@ const Loading = styled.div`
     border-radius: 50%;
     -webkit-animation: spin 0.8s linear infinite;
     animation: spin 0.8s linear infinite;
+
+    ${media.lessThan("mobile")`
+      left: 45%;
+    `}
   }
 `;
 
@@ -57,6 +62,7 @@ const StyledSubheading = styled(Subheading)`
 
   ${media.lessThan("mobile")`
     left: 55%;
+    top: 55%;
   `}
 `;
 
