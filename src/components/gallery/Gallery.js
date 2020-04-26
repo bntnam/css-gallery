@@ -26,9 +26,9 @@ export const Gallery = () => {
         <Heart />
       </Box>
       <Container>
-        <Subheading textAlign={"center"}>Welcome to my CSS Galary!</Subheading>
+        <Subheading textAlign={"center"}>Welcome to my CSS Gallery!</Subheading>
         <Text pt={"10px"} textAlign={"center"}>
-          The Galary consists of various CSS images from my{" "}
+          The Gallery consists of various CSS images from my{" "}
           <a
             href="https://codepen.io/bntnam"
             target="_blank"
@@ -50,7 +50,7 @@ export const Gallery = () => {
           .
         </Text>
         <Text pt={"5px"} textAlign={"center"}>
-          Now, hope you have fun. Cheers! &hearts;
+          Hope you have fun. Cheers! &hearts;
         </Text>
         <CodePen />
       </Container>
