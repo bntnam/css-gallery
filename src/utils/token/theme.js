@@ -13,6 +13,7 @@ export const colors = {
   salomie: "#ffdd7f",
   safetyOrange: "#ff6100",
   blackcurrant: "#1c1428",
+  flushMahogany: "#c73a50",
 };
 
 export const theme = {

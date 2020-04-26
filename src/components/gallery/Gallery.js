@@ -27,7 +27,7 @@ export const Gallery = () => {
       </Box>
       <Container>
         <Subheading textAlign={"center"}>Welcome to my CSS Gallery!</Subheading>
-        <Text pt={"10px"} textAlign={"center"}>
+        <Text pt={"20px"} textAlign={"center"} lineHeight={"1.5"}>
           The Gallery consists of various CSS images from my{" "}
           <a
             href="https://codepen.io/bntnam"
@@ -38,18 +38,16 @@ export const Gallery = () => {
           </a>
           .
         </Text>
-        <Text pt={"5px"} textAlign={"center"}>
-          If you have any idea or feedback, feel free to get in touch at my{" "}
-          <a
-            href="mailto:bntnam.app@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            email
-          </a>
-          .
+        <Text
+          pt={"12px"}
+          textAlign={"center"}
+          maxWidth={"600px"}
+          lineHeight={"1.5"}
+        >
+          The purpose of this project is to show my CSS coding skills and keep
+          my knowledge sharp while working in Front End development.
         </Text>
-        <Text pt={"5px"} textAlign={"center"}>
+        <Text pt={"12px"} textAlign={"center"} lineHeight={"1.5"}>
           Hope you have fun. Cheers! &hearts;
         </Text>
         <CodePen />
