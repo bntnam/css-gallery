@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import { Subheading } from "../../utils";
+import { Subheading, media } from "../../utils";
 
 const Loading = styled.div`
   position: fixed;
@@ -43,8 +43,21 @@ const Loading = styled.div`
 
 const StyledSubheading = styled(Subheading)`
   position: absolute;
-  left: 45%;
-  top: 50%;
+  left: 51%;
+  top: 51%;
+  transform: translate(-50%, -50%);
+
+  ${media.lessThan("laptop")`
+    left: 50%;
+  `}
+
+  ${media.lessThan("tablet")`
+    left: 53%;
+  `}
+
+  ${media.lessThan("mobile")`
+    left: 55%;
+  `}
 `;
 
 export const Spinner = () => (

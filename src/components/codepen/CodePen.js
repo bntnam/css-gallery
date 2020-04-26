@@ -44,41 +44,6 @@ export const CodePen = () => {
         defaultTab="result"
         preview="false"
       />
-      <Codepen
-        hash="jObmGyV"
-        user="bntnam"
-        title="Koala"
-        defaultTab="result"
-        preview="false"
-      />
-      <Codepen
-        hash="jObmGyV"
-        user="bntnam"
-        title="Koala"
-        defaultTab="result"
-        preview="false"
-      />
-      <Codepen
-        hash="jObmGyV"
-        user="bntnam"
-        title="Koala"
-        defaultTab="result"
-        preview="false"
-      />
-      <Codepen
-        hash="jObmGyV"
-        user="bntnam"
-        title="Koala"
-        defaultTab="result"
-        preview="false"
-      />
-      <Codepen
-        hash="jObmGyV"
-        user="bntnam"
-        title="Koala"
-        defaultTab="result"
-        preview="false"
-      />
     </Container>
   );
 };
