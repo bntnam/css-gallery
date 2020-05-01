@@ -44,6 +44,13 @@ export const CodePen = () => {
         defaultTab="result"
         preview="false"
       />
+      <Codepen
+        hash="abvLVoE"
+        user="bntnam"
+        title="Sketch Logo"
+        defaultTab="result"
+        preview="false"
+      />
     </Container>
   );
 };
