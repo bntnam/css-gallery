@@ -38,9 +38,9 @@ export const CodePen = () => {
     <Container>
       {isLoading && <Spinner />}
       <Codepen
-        hash="jObmGyV"
+        hash="zYvEjwQ"
         user="bntnam"
-        title="Koala"
+        title="Crystal"
         defaultTab="result"
         preview="false"
       />
@@ -48,6 +48,13 @@ export const CodePen = () => {
         hash="abvLVoE"
         user="bntnam"
         title="Sketch Logo"
+        defaultTab="result"
+        preview="false"
+      />
+      <Codepen
+        hash="jObmGyV"
+        user="bntnam"
+        title="Koala"
         defaultTab="result"
         preview="false"
       />
