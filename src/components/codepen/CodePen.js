@@ -38,6 +38,13 @@ export const CodePen = () => {
     <Container>
       {isLoading && <Spinner />}
       <Codepen
+        hash="mdezQaJ"
+        user="bntnam"
+        title="Nintedo Switch"
+        defaultTab="result"
+        preview="false"
+      />
+      <Codepen
         hash="zYvEjwQ"
         user="bntnam"
         title="Crystal"
